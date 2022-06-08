@@ -1,0 +1,145 @@
+" ; " --- Semi-colon
+	defination of Semi --- half,partial
+" : " ---- colon
+
+"method" and "function" are same.
+
+Compiler
+	Compiler converts the "source file" into the "machine code".
+		"machine code"
+			This code consists of "1s" and "0s" which are the only thing that the computer understands.
+			The computer does not understands any thing execpt "0s" and "1s"
+	
+	Compilers are the software which are mostly available for free.
+	Different Language have differnt compilers.
+	While downloading compiler they also include some "inbuilt function" for the ease of code.
+	
+	
+Introduction
+	1. C# is a powerful Object Orientated language.
+		Orientated --- revoles around
+	2. The language is "case-sensitive".
+		Capital letters matters.
+		Example
+			Tomato and tomato are not same 
+			Mansoor and mansoor are two differnt people
+			
+	3. Lines terminate with "semi-colons".
+	4. Code is put in code blocks "{ }"
+	5. Inline comments start with "//"
+	 	Example
+			//This is a comment
+			This is not a comment
+	6. "Block comments" or "Multi-line Comment" start with " /* */ ".
+	   This covers multiple lines 
+		Example
+			/* This 
+				is 
+				a Comment */
+	7. The compiler ignores Tabs and white spaces. They are used to improve the readability of code.​
+	8. Semi-colon are used to end the statements and let the compiler know that the statements are finished.
+
+​
+
+
+
+		
+Declaration order​
+	1. "using" "Statement"
+		Ex:
+			using System;
+			using System.web;
+			using System.Data.Entity;
+			using System.console;
+	2. "namespace" "declaration"
+		In c# you need to declare each class in a namespace.
+		We can create "N" number of classes in a namespace but only one class contains the "main" function.
+		There should not be multiple "main" functions in the same "source file".
+			"source file" --- the file in which we write the code is called "source file"
+			
+		We cannot use same class name which is already declared in the same namespace.
+		You can not conflict with one class name declared in one namespace with the same class name declared in another.
+			conflict --- ఘర్షణ
+		The System.console can be used in C# programs. The System can be defined as "namespace", and Console is considered as a "class".
+		Konni sarlu class name same use cheyalsi vastundi and a classes differnt operations perform chestai so ah time lo manam differnt "namespace" create chesi andulo a class ni create cheyochu
+	3. "class" "declaration"
+	
+	
+	
+														using statements
+																|
+												     namespace declaration
+																|
+													   class declaration
+																|
+										/					    |					   \
+									classOne        		 classTwo				classThree
+									   |						|                       |
+									properties				properties				properties
+									Methods                 "main" Method				Methods
+														   Other Methods
+
+	
+																
+																
+																Methods 
+																   |
+															   varbiables
+															   Statements
+	
+									// all properties are varbiables or objects
+									// But all varbiables are not properties
+									
+Keywords
+	Each language contains Keywords which have special meaning to it and cannot be used istam vachinatlu.
+		
+	Keywords are reserved words which convey a specific meaning to a compiler​
+	"Variable names"(identifiers) cannot use keywords unless they include @ as a prefix.​
+	@switch is a valid variable name, but switch is invalid as it is already a keyword​
+		
+Main Funstion
+	Program execution starts and ends in the Main method​
+		program execution main function lo start iye andulone end avtundi
+		
+Statement
+	Statement is a unit of work and has to be terminated with a semi-colon
+		statements anthe  computer ki oka pani cheppadam and statement rasaka semi-colon tho end cheyali
+		anthe computer ki cheppina pani entavaruku apalo ani semi-colon use chesi chpetham
+		computer ki oka time ki oka pani matrame cheppali anduke onka pani cheppaka semi-colon tho end chestham
+		
+Identifiers
+	"varbiableName" are "identifiers" but all "identifiers" are not "variableName"
+	An identifier is the name given to a programming component like a variable, class, method etc​
+		indetifiers anthe names
+		general ga identifier ni variables,classes, inka methods ki istham
+	
+	Identifiers must start with a alphabthe
+		alphabthes​ can contain both uppercase and lowercase letters​
+	
+	Subsequent characters may be numbers, letters or underscores ( _ ) ​
+		subsequent anthe next vache
+		identifiers lo first character alphabthe undali inka second character lo numbers, alphabthes​ or underscores ( _ ) ​e muditlo evaina undochu
+	
+	Keywords cannot be used for identifiers​
+		keyword names ni identifiers la use cheyalemu
+	
+	They are case-sensitive.​
+	
+	The Identifiers in the first column are incorrect because:​
+		3rounds: starts with a number​
+		Read&Write: Except underscore, no other special characters are allowed.​
+		while: It is a keyword.​
+
+	
+	
+VARIABLES
+	To declare a variable you specify the data type and variable name followed by a value.
+	SYNTAX
+		DataType variableName = value;
+		
+	NAMING RULES
+		Variables must start with underscore or letter
+		Variables cannot contain spaces
+		variables can contain numbers
+		Cannot contain symbols (accept underscore)
+			" _ " --- underscore
